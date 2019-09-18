@@ -5089,7 +5089,6 @@ a.badge-dark:hover, a.badge-dark:focus {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
-  min-height: 500px;
 }
 
 @media (min-width: 576px) {
