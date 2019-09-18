@@ -72,7 +72,7 @@
     </nav>
 
     <div class="jumbotron jumbotron-fluid"
-        style="background-image:url('31450752515_5c92e4fd2d_o.jpg');background-size:cover;background-attachment: fixed">
+        style="background-image:url('images/31450752515_5c92e4fd2d_o.jpg');background-size:cover;background-attachment: fixed">
         <div class="container">
             <h1 class="display-4" style="padding-top:5%;color: ivory;text-shadow:0px 0px 5px lightslategrey;">現在想去哪裡？
             </h1>
@@ -80,59 +80,113 @@
         </div>
     </div>
     <div class="container">
-        <div class="col-sm">
-            <h4>最新動態</h4>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                <div class="followed_new">
-                    <h5>聰明蛋</h5> 在 高雄
-                    <p>高雄太熱了受不了</p>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="followed_new">
-                    <h5>聰明蛋</h5> 在 高雄
-                    <p>高雄太熱了受不了</p>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="followed_new">
-                    <h5>聰明蛋</h5> 在 高雄
-                    <p>高雄太熱了受不了<br>
-                        1111111<br>
-                        2222222<br>
-                        3333333<br>
-                        4444444<br>
-                        5555555
-                    </p>
-                </div>
-            </div>
-        </div>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#new_event" role="tab" aria-controls="new_event" aria-selected="true">最新動態</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#new_comment" role="tab" aria-controls="new_comment" aria-selected="false">最新評論</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="new_event" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="col-sm">
+                                    <br><h4>最新動態</h4>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <div class="followed_new">
+                                            <h5>聰明蛋</h5> 在 高雄
+                                            <p>高雄太熱了受不了</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="followed_new">
+                                            <h5>聰明蛋</h5> 在 高雄
+                                            <p>高雄太熱了受不了</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="followed_new">
+                                            <h5>聰明蛋</h5> 在 高雄
+                                            <p>高雄太熱了受不了<br>
+                                                1111111<br>
+                                                2222222<br>
+                                                3333333<br>
+                                                4444444<br>
+                                                5555555
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="tab-pane fade" id="new_comment" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="col-sm">
+                                    <br><h4>最新評論</h4>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <div class="followed_new">
+                                            <h5>聰明蛋</h5> 在 高雄
+                                            <p>高雄太熱了受不了</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="followed_new">
+                                            <h5>聰明蛋</h5> 在 高雄
+                                            <p>高雄太熱了受不了</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm">
+                                        <div class="followed_new">
+                                            <h5>聰明蛋</h5> 在 高雄
+                                            <p>高雄太熱了受不了</p>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="col-sm">
+                                    <br><h4>最新動態</h4>
+                                </div>
+                        <div class="row">
+                            
+                            <div class="col-sm">
+                                    <div class="card" >
+                                            <img src="images/neko-atsume-post-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                              <h5 class="card-title">秋天要到了</h5>
+                                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                              <a href="#" class="btn btn-primary">繼續閱讀</a>
+                                            </div>
+                                          </div>
+                            </div>
+                            <div class="col-sm"><div class="card" >
+                                    <img src="images/neko-atsume-post-1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                  </div></div>
+                            <div class="col-sm"><div class="card">
+                                    <img src="images/neko-atsume-post-1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                  </div>
+                                </div>
+                        </div>
+                    </div>
+                  </div>
+        
         <hr>
-        <div class="col-sm">
-            <h4>最新評論</h4>
-        </div>
-        <div class="row">
-            <div class="col-sm">
-                <div class="followed_new">
-                    <h5>聰明蛋</h5> 在 高雄
-                    <p>高雄太熱了受不了</p>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="followed_new">
-                    <h5>聰明蛋</h5> 在 高雄
-                    <p>高雄太熱了受不了</p>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="followed_new">
-                    <h5>聰明蛋</h5> 在 高雄
-                    <p>高雄太熱了受不了</p>
-                </div>
-            </div>
-        </div>
+
         <hr>
     </div>
 
